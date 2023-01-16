@@ -1,7 +1,6 @@
 # Enerjisa-Solar-Power-Generation-Datathon-Kaggle
 
-![Uploading image.png…]()
-
+![image](https://user-images.githubusercontent.com/64266044/212727357-96de007d-c488-4c23-870c-588a84642759.png)
 
 # Dataset Description
 
