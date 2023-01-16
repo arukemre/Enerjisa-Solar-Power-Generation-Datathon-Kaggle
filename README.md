@@ -19,6 +19,7 @@ Tahmin edilmesi istenen tarih aralığı 01.12.2021 – 31.12.2021 olarak belirl
     |─ `Generation`: İlgili saat aralığında yapılan toplam üretimi MWh biriminde belirtir.
 
 |─ `temperature` tablosunda:
+
     |─ `DateTime`: Sıcaklık değişkenlerinin gözlemlendiği saat aralığını belirtir.
     |─ `AirTemperature`: Saat aralığındaki hava sıcaklığını Celsius biriminde belirtir.
     |─ `ComfortTemperature`: Saat aralığındaki hissedilen hava sıcaklığını Celsius biriminde belirtir.
@@ -27,3 +28,9 @@ Tahmin edilmesi istenen tarih aralığı 01.12.2021 – 31.12.2021 olarak belirl
     |─ `WindDirection`: Saat aralığındaki rüzgar yönünü belirtir.
     |─ `WWCode`: Saat aralığındaki hava durumu kodunu belirtir.
     |─ `EffectiveCloudCover`: Saat aralığındaki bulutluluk oranını sekizlik ölçü birimi cinsinden belirtir.
+
+
+
+## RMSE metric
+
+![image](https://user-images.githubusercontent.com/64266044/212725775-2765ec62-c2fe-43d5-919d-e41b7590f949.png)
