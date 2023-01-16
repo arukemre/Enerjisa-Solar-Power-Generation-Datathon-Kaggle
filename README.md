@@ -13,18 +13,17 @@ Veri setinde 01.01.2019 – 30.11.2021 arasında Başkent bölgesinde yer alan l
 
 Tahmin edilmesi istenen tarih aralığı 01.12.2021 – 31.12.2021 olarak belirlenmiştir.
 
-|─ `generation` :
+    |─ `generation` tablosunda:
 
-    |─ `DateTime`: üretimin yapıldığı saat aralığını tarih-saat formatında belirtir.
-    |─ `Generation`: İlgili saat aralığında yapılan toplam üretimi MWh biriminde belirtir.
+        |─ `DateTime`: üretimin yapıldığı saat aralığını tarih-saat formatında belirtir.
+        |─ `Generation`: İlgili saat aralığında yapılan toplam üretimi MWh biriminde belirtir.
 
-|─ temperature tablosunda
-
-  |─ `DateTime`: Sıcaklık değişkenlerinin gözlemlendiği saat aralığını belirtir.
-  |─ `AirTemperature`: Saat aralığındaki hava sıcaklığını Celsius biriminde belirtir.
-  |─ `ComfortTemperature`: Saat aralığındaki hissedilen hava sıcaklığını Celsius biriminde belirtir.
-  |─ `RelativeHumidity`: Saat aralığındaki nem oranını belirtir.
-  |─ `WindSpeed`: Saat aralığındaki rüzgar hızını km/s biriminde belirtir.
-  |─ `WindDirection`: Saat aralığındaki rüzgar yönünü belirtir.
-  |─ `WWCode`: Saat aralığındaki hava durumu kodunu belirtir.
-  |─ `EffectiveCloudCover`: Saat aralığındaki bulutluluk oranını sekizlik ölçü birimi cinsinden belirtir.
+    |─ `temperature` tablosunda:
+      |─ `DateTime`: Sıcaklık değişkenlerinin gözlemlendiği saat aralığını belirtir.
+      |─ `AirTemperature`: Saat aralığındaki hava sıcaklığını Celsius biriminde belirtir.
+      |─ `ComfortTemperature`: Saat aralığındaki hissedilen hava sıcaklığını Celsius biriminde belirtir.
+      |─ `RelativeHumidity`: Saat aralığındaki nem oranını belirtir.
+      |─ `WindSpeed`: Saat aralığındaki rüzgar hızını km/s biriminde belirtir.
+      |─ `WindDirection`: Saat aralığındaki rüzgar yönünü belirtir.
+      |─ `WWCode`: Saat aralığındaki hava durumu kodunu belirtir.
+      |─ `EffectiveCloudCover`: Saat aralığındaki bulutluluk oranını sekizlik ölçü birimi cinsinden belirtir.
